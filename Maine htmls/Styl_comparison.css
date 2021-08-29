@@ -1,0 +1,15 @@
+header>h1 {
+    padding: 0px ;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    color:rgb(79, 212, 221);
+    position:relative;
+    left:20px;
+  }
+  
+
+  .comparison_container figure >img { width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <style>
+        img{ width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;}
+    </style>
+
+    <meta charset="UTF-8">
+    <title>comparison</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div id="first_line_color">
+        <div class="row">   
+               
+                <div class="col-md-6">    
+
+                        <div class="first_line" >
+                            <div class="div1"><h1>Latitude</h1> </div>
+                        </div>    
+                </div>  
+                
+               <div class="col-md-2"> 
+                </div>
+     </div>
+<br>
+
+           
+        <main class="comparison_container">
+                <header>
+                    <h1>Overal Comparison</h1>
+                </header>
+                <p>click any plot to get an in-depth analysis</p>
+
+            <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                                
+                            <a href="Temp.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                                <figcaption style="text-align: center;font-size: 150%">Latitude vs. Max Temperature</figcaption>
+                                <img src="./Resources/latitude_Max-Temperature.png" alt="latitude_Max-Temperature" >
+                            </figure></a>    
+                    </div>
+
+
+                     <div class="col-sm-6 col-md-6">
+                           <a href="Cloudiness.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">Latitude vs. Cloudiness</figcaption>
+                           <img src="./Resources/latitude_Cloudiness(mph).png" alt="latitude_Cloudiness" >
+                                  </figure></a>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                           <a href="Humidity.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">Latitude vs. Humidity</figcaption>
+                           <img src="./Resources/latitude_humidity.png" alt="latitude_humidity" >
+                                </figure></a>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                            <a href="Windspeeed.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%;">
+                              <figcaption style="text-align: center;font-size: 150%">Latitude vs. Wind-speed</figcaption>
+                                <img src="./Resources/latitude_wind-speed(mph).png" alt="latitude_wind-speed" >
+                             </figure></a>
+                    </div>
+            </div>
+        </main>
+
+
+
+
+
+                
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    </body>
+                
+ </html>

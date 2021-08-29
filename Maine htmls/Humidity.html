@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <style>
+        img{ width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;}
+    </style>
+
+    <meta charset="UTF-8">
+    <title>humidity</title>
+
+ 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div id="first_line_color">
+        <div class="row">   
+                
+                <div class="col-md-6">    
+
+                        <div class="first_line" >
+                            <!-- <div class="div1"><h1>Latitude</h1> </div> -->
+                        </div>    
+                </div>  
+                
+               <div class="col-md-2">
+     </div>
+<br>
+
+<header>
+    <h1 style="position:absolute;left:0%">Lattitude vs Humidity</h1>
+</header>
+
+<br>
+<!-- <h2 style="position:absolute;left:20%;color:rgb(182, 39, 106)">vs. Humidity</h2> -->
+<br>
+
+<div class="Col_container">
+    <div class="row">
+      
+      
+      <div class="col-md-8">
+        
+
+
+
+            <figure id="main1_figure">
+                
+                <img src="./Resources/latitude_humidity.png" alt="latitude_humidity.png" style="width:100%;height:100%;align:middle">
+                <figcaption>
+                    Humidity varies among cities even at the same Latitude. 
+                    One thing to notice is there is variance in humidity that tends to decrease at certain latitudes,
+                    such as from -20 degrees to 0 degrees latitude and at around 40 degrees to approximately 75 degrees latitude. 
+                    As latitude decreases from that range of latitudes, such clusters become more rare 
+                    while common for the northern hemisphere.
+                </figcaption>  
+            </figure>
+    
+
+      </div>
+     
+      
+      
+      <div class="col-md-4">
+          
+            <main class="container2">
+                <header>
+                    <h2>Visualizations</h2>
+                </header>
+
+            <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-6">
+                  <figure id="main1_figure">
+                     
+                    <a href="./Temp.html">
+                      <img src="./Resources/latitude_Max-Temperature.png" alt="latitude_Max-Temperature" style="width:150px;height:150px;">
+                    </a>
+                    </figure>
+        
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-6">
+                  <figure id="main1_figure">
+                      <a href="./Cloudiness.html">
+                      <img   src="./Resources/latitude_Cloudiness(mph).png" alt="latitude_Cloudiness" style="width:150px;height:150px;">
+                      </a>
+                    </figure>
+              </div>
+           
+
+            
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                    <figure id="main1_figure">
+                       
+                        <a href="./Humidity.html">
+                        <img   src="./Resources/latitude_humidity.png" alt="latitude_humidity" style="width:150px;height:150px;">
+                        </a>  
+                    </figure>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-6">
+                    <figure id="main1_figure">
+                       
+                        <a href="./Windspeeed.html">
+                        <img  src="./Resources/latitude_wind-speed(mph).png" alt="latitude_wind-speed" style="width:150px;height:150px;">
+                        </a>  
+                    </figure>
+                </div>
+              </div>
+              </main>
+       
+      
+            
+      </div>
+    </div>
+
+        
+        
+        <br><br>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
